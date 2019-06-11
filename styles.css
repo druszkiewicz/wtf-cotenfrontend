@@ -1,0 +1,17 @@
+body {
+   background-color: aqua;
+}
+
+h1 {
+   font-size: 5rem;
+}
+
+h2 {
+   background-color: #cccccc;
+   color: white;
+}
+
+h4 {
+   /*  background-color: aqua; */
+   color: tomato;
+}
