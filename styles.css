@@ -1,5 +1,5 @@
 body {
-   background-color: aqua;
+   background-color: rgb(172, 211, 211);
 }
 
 h1 {
@@ -11,7 +11,16 @@ h2 {
    color: white;
 }
 
+h3 {
+   color: brown;
+}
+
 h4 {
    /*  background-color: aqua; */
    color: tomato;
+}
+
+.main__section-zarzadzanie {
+   text-align: center;
+   color: #9ABD97;
 }
