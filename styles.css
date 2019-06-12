@@ -1,5 +1,5 @@
 body {
-   background-color: rgb(172, 211, 211);
+   background-color: rgb(156, 210, 231);
 }
 
 h1 {
@@ -19,6 +19,15 @@ h3 {
 h4 {
    /*  background-color: aqua; */
    color: tomato;
+}
+
+.linkTable {
+   border-spacing: 15px;
+}
+
+.linkTable__td {
+   border: 1px solid black;
+   padding: 5px;
 }
 
 .main__section-zarzadzanie {
