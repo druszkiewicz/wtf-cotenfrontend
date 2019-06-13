@@ -39,7 +39,9 @@ h4 {
    color: #9ABD97;
 }
 
-.about {}
+.about {
+   position: relative;
+}
 
 .main {
    width: 100%;
@@ -53,5 +55,9 @@ h4 {
    background-color: yellowgreen;
    padding: 10px;
    border: 10px solid red;
-   margin: 10px;
+   box-sizing: border-box;
+   position: absolute;
+   /* relative/absolute */
+   top: 10px;
+   left: 50%;
 }
