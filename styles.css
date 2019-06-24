@@ -1,5 +1,6 @@
 body {
    background-color: rgb(156, 210, 231);
+   background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
 h1 {
@@ -75,6 +76,21 @@ h4 {
    padding: 16px;
    background: #fff;
 }
+
+.menu {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.menu__item {
+   background-color: rgb(184, 105, 105);
+   color: bisque;
+   padding: 0 16px;
+   margin: 0 8px;
+   text-decoration: none;
+}
+
 
 .main {
    width: 100%;
