@@ -1,6 +1,7 @@
 body {
    background-color: rgb(156, 210, 231);
    background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+   /* background-image: radial-gradient(circle, #123569, #744b74, #a86f7a, #c69e8d, #dad0b7); */
 }
 
 h1 {
@@ -75,6 +76,20 @@ h4 {
    box-sizing: border-box;
    padding: 16px;
    background: #fff;
+}
+
+.navigation__list {
+   list-style: none;
+   padding: 0;
+   /* height: 60px; */
+   display: flex;
+   /* align-items: center; */
+   justify-content: center;
+}
+
+.navigation__item {
+   display: block;
+   margin: 0 16px;
 }
 
 .menu {
