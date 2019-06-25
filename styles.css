@@ -91,7 +91,8 @@ p {
    left: 0px;
    box-sizing: border-box;
    padding: 16px;
-   background: rgb(213, 230, 167);
+   background: rgb(4, 16, 87);
+   /* background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
 }
 
 .navigation__list {
@@ -106,6 +107,15 @@ p {
 .navigation__item {
    display: block;
    margin: 0 16px;
+   padding: 8px;
+   background-color: #fff;
+   border-radius: 10px;
+
+}
+
+.navigation__link {
+   font-weight: bold;
+   text-decoration: none;
 }
 
 .menu {
