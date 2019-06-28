@@ -139,3 +139,25 @@ p {
    margin: 32px auto;
    padding-top: 5px;
 }
+
+.myLinks {
+   background: rgb(237, 238, 183);
+}
+
+.myHref {
+   color: white;
+}
+
+.mainForm {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 80vh;
+}
+
+.myForm {
+   max-width: 600px;
+   width: 100%;
+
+
+}
