@@ -102,6 +102,10 @@ p {
    display: flex;
    /* align-items: center; */
    justify-content: center;
+   justify-content: space-between;
+    /* justify-content: space-around; */
+    /* align-content: center;
+    align-items: center; */
 }
 
 .navigation__item {
@@ -110,7 +114,15 @@ p {
    padding: 8px;
    background-color: #fff;
    border-radius: 10px;
+   /* flex: 1 0 50px; */
+   flex-grow: 1;
 
+}
+
+.navigation__link--bigger {
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-wrap: nowrap;
 }
 
 .navigation__link {
@@ -122,6 +134,7 @@ p {
    display: flex;
    justify-content: center;
    align-items: center;
+
 }
 
 .menu__item {
